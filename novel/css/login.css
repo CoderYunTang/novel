@@ -1,0 +1,49 @@
+body{
+	width: 1366px;
+	margin: 0 auto;
+}
+a{text-decoration: none;}
+ul{margin: 0;padding: 0;}
+ul li{list-style: none;}
+@font-face {
+  font-family: Myfont;
+  src: url('../font/qd_iconfont.0.2.woff');
+}
+@font-face {
+  font-family: novel_type;
+  src: url('../font/FZZCYSK.0.10.woff');
+}
+/*toper*/
+.toper{width: 100%;height: 80px;}
+.toper .logo{width: 80%;height: 70px;margin: 0 auto;position: relative;}
+.toper .logo .line{display:inline-block;color:#505050;border-left:solid 1px rgba(222, 217, 217, 0.8) ;height: 40px;line-height: 50px;padding-left: 10px;position: absolute;
+margin-top: 18px;font-size: 15px;font-family: "微软雅黑";}
+.toper .logo a img{overflow-y: scroll;}
+/*toper*/
+
+/*content*/
+.content{width: 100%;height: 500px;}
+.content .content_box{width: 80%;height: 100%;margin: 0 auto;}
+.content .content_box .left{float:left;width: 50%;height: 80%;padding-top: 50px;padding-bottom: 50px;}
+.content .content_box .left .img{width: 100%;height: 80%;padding-top: 5%;}
+.content .content_box .left .img img{width: 100%; height: 100%;}
+.content .content_box .right{float:left;width: 50%;height: 80%;padding-top: 50px;padding-bottom: 50px;}
+.content .content_box .right .login{border:solid 1px rgba(222, 217, 217, 0.8);background-color: #FFFFFF; width:350px ;height: 320px;margin-left: auto;margin-right: auto;margin-top: 20px;margin-bottom: 50px;}
+.content .content_box .right .login .login_title{width: 90%;height: 45px;line-height: 45px;padding-top: 15px;padding-left:17.5px;padding-right:17.5px;font-size: 18px;font-family: "微软雅黑";}
+.content .content_box .right .login .login_msg{	width: 90%;height: 25px;padding-left:35px;font-size: 12px;line-height: 25px;color: red;}
+.content .content_box .right .login .login_box{width: 90%;height: 174px;margin: 0 auto;}
+.content .content_box .right .login .login_box form{width: 100%;height: 100%;}
+.content .content_box .right .login .login_box form .input{width: 100%;height: 55px;line-height: 10px;}
+.content .content_box .right .login .login_box form .input input{outline:none;width: 90%;height: 35px;margin-left: 5%;}
+.content .content_box .right .login .login_box form .sub{width: 100%;height: 61px;line-height: 61px;}
+.content .content_box .right .login .login_box form .sub input{width: 90%;height: 35px;margin-left: 5%;outline: none;background-color:#d6312c;border: solid 0 ;#d6312c;color: white;font-size: 16px;font-weight: bold;} 
+.content .content_box .right .login .login_box form .sub input:hover{background-color:#ec5753;}
+.content .content_box .right .login .login_other{width: 80%;height: 60px;margin: 0 auto;padding: 0 5%;font-size: 13px;}
+.content .content_box .right .login .login_other .login_reg{width:50%;float: left;color: #505050;}
+.content .content_box .right .login .login_other .login_reg a{color: #505050;font-size: 12px;}
+.content .content_box .right .login .login_other .login_reg a:hover{color: #e84a4a;}
+.content .content_box .right .login .login_other .remerber{float: right;}
+.content .content_box .right .login .login_other .remerber a{color: #505050;}
+.content .content_box .right .login .login_other .remerber a:hover{color: #e84a4a;}
+
+/*content*/

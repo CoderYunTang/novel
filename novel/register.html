@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>云小说-注册</title>
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/register.css" />
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script>
+			$(function(){
+				$("#user_id").blur(function(){
+					var user_id=$("#user_id").val();
+					if(user_id=="")
+					{
+						$("#msg_id").html("请输入用户名！");
+					    $("#user_id").focus();
+					}
+					else
+					{
+					
+					}
+					
+					
+				});
+				
+				$("#sub").click(function(){
+					if(!($(".ck").is(":checked")))
+					{
+						$("#msg_ck").html("注册本账号须阅读并用户同意服务协议！");
+						return false;
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="toper">
+			<div class="logo">
+				<a href="index.html"><img src="img/logo1.png" /></a>
+				<a class="line" href="login.html">注册</a>
+			</div>
+			
+		</div>
+		
+		<div class="content">
+			<div class="content_box">
+				<div class="register_title">
+					<div class="title_box">
+						<div id="title_1"><span>1</span>填写注册信息</div>
+					    <div id="title_2"><span>✓</span>注册成功</div>
+					</div>
+				</div>
+				<div class="register_content">
+					<div class="register">
+						<form>
+							<div class="reg_line">
+								<div class="title">用户名</div>
+								<div class="input">
+									<input id="user_id" type="text" name="user_id" placeholder="请输入用户名" />
+								</div>
+								<div id="msg_id" class="msg_id"></div>
+							</div>
+							<div class="reg_line">
+								<div class="title">密码</div>
+								<div class="input">
+									<input id="user_pwd" type="text" name="user_pwd" placeholder="请输入密码" />
+								</div>
+								<div id="msg_pwd" class="msg_id"></div>
+							</div>
+							<div class="reg_line">
+								<div class="title">确认密码</div>
+								<div class="input">
+									<input id="user_rpwd" type="text" name="user_repwd" placeholder="请输入再次输入密码" />
+								</div>
+								<div id="msg_repwd" class="msg_id"></div>
+							</div>
+							<div class="reg_line">
+								<div class="title">验证码</div>
+								<div class="input">
+									<input class="validate" type="text" name="user_id" placeholder="请输入验证码" />
+									<img class="validate_img"  src="img/logo1.png" />
+								</div>
+								<div id="msg_validate" class="msg_id"></div>
+							</div>
+							<div class="reg_line">
+								<div class="title"></div>
+								<div class="ck_input">
+									<input class="ck" type="checkbox" name="ck" /> 
+									<span>我已阅读并同意<a href="#">《云小说用户服务协议》</a></span>
+								</div>
+								<div id="msg_ck" class="msg_id"></div>
+							</div>
+							<div class="reg_line">
+								<div class="title"></div>
+								<div class="sub">
+									<input id="sub" type="submit" value="注册" />
+								</div>
+								<div class="msg_id"></div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+		    <p>毕业设计</p>
+			<p>版权所有：软件142唐云</p>
+		
+		</div>
+	</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>小说阅读</title>
+		<link rel="stylesheet" href="css/novel_read.css" />
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/novel.js" ></script>
+		<script>
+			$(function(){
+				
+				$("#nlc").mouseover(function(){
+					$("#ct").css("z-index","100");
+				});
+				$("#nlc").mouseout(function(){
+					$("#ct").css("z-index","200");
+				});
+				$("#top").mouseout(function(){
+					$("#ct").css("z-index","200");
+				});
+				$("#top").mouseover(function(){
+					$("#ct").css("z-index","100");
+				});
+				
+			});
+		</script>
+	</head>
+	<body>
+		<div id="top" class="toper">
+			<div class="toper_1">
+				<div class="left">
+					<a class="left_title" href="#">云小说</a>
+					<a href="#">玄幻</a>
+					<a href="#">玄幻</a>
+					<a href="#">玄幻</a>
+					<a href="#">玄幻</a>
+					<a href="#">玄幻</a>
+					<a href="#">玄幻</a>
+					<a id="more_nt" href="#">更多<span>▲</span></a>
+					<div id="hdn" class="hidden">
+						<a href="#">玄幻</a>
+					    <a href="#">玄幻</a>
+					    <a href="#">玄幻</a>
+					    <a href="#">玄幻</a>
+					    <a href="#">玄幻</a>
+					    <a href="#">玄幻</a>
+					</div>
+				</div>
+				<div class="right">
+					<div class="user">
+						<a href="#">登录</a>
+						<a href="#">注册</a>
+					</div>
+					<div class="bookshelf">
+						<a href="#">我的书架</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="ct" class="content">
+			<div class="content_box">
+				<div class="novel_content">
+					<div class="left"><a class="pager_s">上一页</a></div>
+					<div class="content">
+						<div class="novel_jie">第1章</div>
+						<div id="nlc" class="novel"></div>
+						<div class="novel_pager"><a class="pager">1</a>/<a class="pager_count">19</a></div>
+					</div>
+					<div class="right"><a class="pager_x">下一页</a></div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="footer"></div>
+	</body>
+</html>

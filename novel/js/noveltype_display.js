@@ -1,0 +1,18 @@
+$(function(){
+        		$("#n_type").mouseover(function(){
+        			$("#buttom_box").css("display","block");
+        			$("#buttom_box").css("z-index","200");
+        		});
+        		$("#bn_type").mouseover(function(){
+        			$("#buttom_box").css("display","block");
+        			$("#buttom_box").css("z-index","200");
+        		});
+        		$("#n_type").mouseout(function(){
+        			$("#buttom_box").css("display","none");
+        			$("#buttom_box").css("z-index","0");
+        		});
+        		$("#bn_type").mouseout(function(){
+        			$("#buttom_box").css("display","none");
+        			$("#buttom_box").css("z-index","0");
+        		});
+        	});

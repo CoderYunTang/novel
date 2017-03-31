@@ -1,0 +1,50 @@
+body{
+	width: 1366px;
+	margin: 0 auto;
+}
+a{text-decoration: none;}
+ul{margin: 0;padding: 0;}
+ul li{list-style: none;}
+@font-face {
+  font-family: Myfont;
+  src: url('../font/qd_iconfont.0.2.woff');
+}
+@font-face {
+  font-family: novel_type;
+  src: url('../font/FZZCYSK.0.10.woff');
+}
+/*toper*/
+.toper{width: 100%;height: 80px;}
+.toper .logo{width: 80%;height: 70px;margin: 0 auto;position: relative;}
+.toper .logo .line{display:inline-block;color:#505050;border-left:solid 1px rgba(222, 217, 217, 0.8) ;height: 40px;line-height: 50px;padding-left: 10px;position: absolute;
+margin-top: 18px;font-size: 15px;font-family: "微软雅黑";}
+.toper .logo a img{}
+/*toper*/
+
+/*content*/
+.content{width: 100%;height: 600px;}
+.content .content_box{width: 80%;height: 100%;margin: 0 auto;}
+.content .content_box .register_title{border-bottom:2px #CCCCCC solid;width: 100%;height: 80px;}
+.content .content_box .register_title .title_box{width: 45%;height: 30px;margin-left: auto;margin-right: auto;font-family:"微软雅黑";font-size: 18px;
+padding-top: 50px;}
+.content .content_box .register_title .title_box #title_1{float: left;width: 45%;height: 100%;padding-left:5%;text-align: center;position: relative;border-bottom: 2px solid #d6312c;}
+.content .content_box .register_title .title_box #title_2{color:#CCCCCC;float: left;width: 45%;height: 100%;padding-left:5%;text-align: center;position: relative;}
+.content .content_box .register_title .title_box #title_1 span {color:white;background:#d6312c; width: 24px;height: 24px;left:50px;border-radius:24px ;display:inline-block;position: absolute;}
+.content .content_box .register_title .title_box #title_2 span {color:white;background:#CCCCCC; width: 24px;height: 24px;left:65px;border-radius:24px ;display:inline-block;position: absolute;}
+.content .content_box .register_content{margin:0 auto;width: 70%;height: 520px; "Microsoft YaHei","SimSun",Arial, Helvetica, sans-serif;font-size: 13.5px;font-weight: 500;color:#796e6e;}
+.content .content_box .register_content .register{width: 100%;height:420px;padding: 50px 0;}
+.content .content_box .register_content .register form{width: 100%;height: 100%;}
+.content .content_box .register_content .register form .reg_line{width: 100%;height: 50px;margin-bottom: 5px;}
+.content .content_box .register_content .register form .reg_line .title{height: 100%;width: 30%;float: left;text-align: right;line-height: 45px;}
+.content .content_box .register_content .register form .reg_line .input{height: 100%;width: 45%;float: left;line-height: 20px;text-align: center;}
+.content .content_box .register_content .register form .reg_line .input input{width: 92%;height: 70%;}
+.content .content_box .register_content .register form .reg_line .input .validate{width: 40%;height: 70%;float: left;margin-left: 3.5%;}
+.content .content_box .register_content .register form .reg_line .input .validate_img{width: 30%;height: 80%;float: right;margin-right: 20%;border: solid 1px #CCCCCC;}
+.content .content_box .register_content .register form .reg_line .msg_id{color:#d6312c;height: 100%;width: 25%;float: left;line-height: 45px;font-size: 12px;text-align: left;position: relative;}
+.content .content_box .register_content .register form .reg_line .ck_input{height: 100%;width: 44%;float: left;line-height: 30px;text-align: left;margin-left: 1%;font-size: 12px;}
+.content .content_box .register_content .register form .reg_line .ck_input .ck{float: left;margin-top: 8px;}
+.content .content_box .register_content .register form .reg_line .ck_input span{float: left;color: #C0C0C0;font-weight: 500;}
+.content .content_box .register_content .register form .reg_line .ck_input span a{color: #796e6e;}
+.content .content_box .register_content .register form .reg_line .sub {height: 100%;width: 45%;float:left;line-height: 20px;text-align: center;}
+.content .content_box .register_content .register form .reg_line .sub input {font-family:"微软雅黑";font-size:16px;background-color:#d6312c;color:white;outline:none;border:1px solid #d6312c;width: 92%;height: 70%;}
+.content .content_box .register_content .register form .reg_line .sub input:hover{background-color:#ec5753 ;}

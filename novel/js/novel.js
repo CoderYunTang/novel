@@ -1,0 +1,19 @@
+$(function(){
+			
+			$("#more_nt").mouseover(function(){
+				$(".hidden").css("display","block");
+				$("#more_nt").css("background-color","#333232");
+			});
+			$("#more_nt").mouseout(function(){
+				$(".hidden").css("display","none");	
+				$("#more_nt").css("background-color","#3e3d43");
+			});
+			$(".hidden").mouseover(function(){
+				$(".hidden").css("display","block");
+				$("#more_nt").css("background-color","#333232");
+			});
+			$(".hidden").mouseout(function(){
+				$(".hidden").css("display","none");	
+				$("#more_nt").css("background-color","#3e3d43");
+			});
+		});
